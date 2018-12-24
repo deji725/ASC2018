@@ -1,0 +1,32 @@
+/* PREMADE */
+body{
+    margin:0;
+}
+/* END OF PREMADE */
+
+.main_container{
+height: 100vh;
+display:flex;
+}
+
+.sidebar{
+width: 100%;
+padding-left: 50px;
+background-image: url("../../assets/crash.jpg");
+align-items: flex-end;
+background-position-x: center;
+text-align: center;
+padding-top: 250px;
+color: white;
+}
+
+.sidebar img{
+width:  72px;
+color: white;
+}
+
+.scrolling_content{
+text-align:center; 
+padding:26px;
+overflow-y:auto; 
+}

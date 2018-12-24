@@ -1,0 +1,50 @@
+/* PREMADE */
+body{
+    margin: 0;
+}
+
+nav, footer{
+    background-color: paleturquoise;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a, footer{
+    font-size: 2em;
+    color: #afafee;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#739273;
+}
+/* END OF PREMADE */
+
+/* PUT YOUR CSS HERE */
+.main_container{
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+.main_content_container{
+    display: flex;
+    /*padding-left: 10%;*/
+}
+.main_content{
+   /* padding-right: 10%;*/
+   padding-left: 26px;
+   padding-right: 26px;
+   overflow-y: scroll;
+}
+
+.flex_padding{
+    width:100vh;
+    background-color: pink;
+    
+}
