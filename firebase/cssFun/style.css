@@ -1,0 +1,24 @@
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+
+#first {
+    background-color: red;
+}
+
+#second{
+    background-color: green;
+}
+
+p{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+#first{
+    background-color: purple;
+}

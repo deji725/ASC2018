@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Messaging App</title>
+
+    <!--Go to https://console.firebase.google.com-->
+    <!--Sign in and add a project "fireMessage"-->
+    <!--PASTE SNIPPET HERE-->
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDA6RDXsI7-oYZmjgmR1GgKa34UtI8TxIQ",
+    authDomain: "firemessage-a9787.firebaseapp.com",
+    databaseURL: "https://firemessage-a9787.firebaseio.com",
+    projectId: "firemessage-a9787",
+    storageBucket: "firemessage-a9787.appspot.com",
+    messagingSenderId: "796017214043"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+    <!--custom files-->
+    <script src="lib/js/main.js" defer></script>
+    <link rel="stylesheet" href="lib/css/style.css">
+</head>
+<body>
+
+    <!--Add your name-->
+    <h1>Deji's Messaging App</h1>
+
+    <!--This div will be populated with messages-->
+    <div class="allMessages" id="allMessages">
+        
+    </div>
+    
+    <!--For user to input messages-->
+    <div class="userContainer">
+        <form>
+            <div class="inputContainer">
+                <div class="singleInput">
+                    <label for="username">Your name:</label>
+                    <input id="username" type="text">
+                </div>
+                <div class="singleInput">
+                    <label for="message">Message:</label>
+                    <input id="message" type="text">
+                </div>
+            </div>
+            <button id="submitButton">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
